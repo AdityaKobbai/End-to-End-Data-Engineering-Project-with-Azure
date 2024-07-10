@@ -1,1 +1,54 @@
-# End-to-End-Data-Engineering-Project-with-Azure
+# End-to-End Data Engineering Project with Azure
+
+## Azure Data Pipeline Project
+
+This project demonstrates the end-to-end data pipelining process using various Azure services, including Azure Data Factory, Azure Databricks, Azure Data Lake Storage Gen2, and Azure Synapse Analytics. The purpose of this project is to showcase the ability to handle the entire data pipelining ecosystem effectively.
+
+## Project Overview
+
+The project involves the following steps:
+1. **Creation of Storage Account and Resource Group**: Setting up the necessary Azure resources to store and process data.
+2. **Data Ingestion**: Pulling data from HTTP data sources into Azure Data Factory.
+3. **Data Organization**: Creating two folders (`raw_data` and `transformed_data`) in Azure Data Lake Storage Gen2.
+4. **Data Loading**: Loading raw data into the `raw_data` folder.
+5. **Data Transformation**: Using Azure Databricks with the PySpark framework to transform the data.
+6. **Storing Transformed Data**: Loading the transformed data into the `transformed_data` folder.
+7. **Exploratory Data Analysis (EDA)**: Loading the transformed data into Azure Synapse Analytics for EDA.
+
+By executing these steps, the project aims to demonstrate the comprehensive handling of a data pipeline using Azure services.
+
+## Project Steps in Detail
+
+### 1. Creation of Storage Account and Resource Group
+- Set up a storage account and a resource group in Azure.
+- Create containers to store the data.
+
+### 2. Data Ingestion
+- Use Azure Data Factory to pull data from HTTP data sources.
+- Store the ingested data in the `raw_data` folder in Azure Data Lake Storage Gen2.
+
+### 3. Data Organization
+- Create two folders in the storage container: `raw_data` and `transformed_data`.
+- Ensure the raw data is correctly placed in the `raw_data` folder.
+
+### 4. Data Loading
+- Load the raw data into the `raw_data` folder in Azure Data Lake Storage Gen2.
+
+### 5. Data Transformation
+- Utilize Azure Databricks and PySpark to transform the raw data.
+- The transformation steps are outlined in the provided Jupyter Notebook (`transformation.ipynb`).
+
+### 6. Storing Transformed Data
+- Load the transformed data into the `transformed_data` folder in the storage container.
+
+### 7. Exploratory Data Analysis (EDA)
+- Use Azure Synapse Analytics to perform EDA on the transformed data.
+- Analyze the data to gain insights and validate the transformation process.
+
+## Project Files
+
+- **transformation.ipynb**: Jupyter Notebook containing the PySpark code used for data transformation.
+
+## Conclusion
+
+This project highlights the capability to manage an entire data pipeline using Azure services. Each step, from data ingestion to transformation and analysis, is designed to demonstrate proficiency in handling complex data workflows in a cloud environment.
