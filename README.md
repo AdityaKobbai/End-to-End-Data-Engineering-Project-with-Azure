@@ -15,6 +15,8 @@ The project involves the following steps:
 6. **Storing Transformed Data**: Loading the transformed data into the `transformed_data` folder.
 7. **Exploratory Data Analysis (EDA)**: Loading the transformed data into Azure Synapse Analytics for EDA.
 
+<img width="1273" alt="resources_all" src="https://github.com/AdityaKobbai/End-to-End-Data-Engineering-Project-with-Azure/assets/47831290/1afce7ea-b3a1-4c7c-95be-8c5787c45696">
+
 By executing these steps, the project aims to demonstrate the comprehensive handling of a data pipeline using Azure services.
 
 ## Project Steps in Detail
