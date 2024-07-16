@@ -30,7 +30,8 @@ By executing these steps, the project aims to demonstrate the comprehensive hand
 - Set up a storage account and a resource group in Azure.
 - Create containers to store the data.
   
-<img width="600" alt="Container1" src="https://github.com/AdityaKobbai/End-to-End-Data-Engineering-Project-with-Azure/assets/47831290/f2209133-8378-46c4-bea3-99922056f5e7">
+<img width="1269" alt="Screenshot 2024-07-16 at 4 17 02 PM" src="https://github.com/user-attachments/assets/e7484fb6-0947-400a-ba9e-752986d919b6">
+
 
 ### 2. Data Ingestion
 - Use Azure Data Factory to pull data from HTTP data sources.
